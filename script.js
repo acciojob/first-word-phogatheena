@@ -5,7 +5,7 @@ function firstWord(s) {
 		{
 			if(s[i]===" ")
 			{
-				break;
+				return a;
 			}
 				a+=s[i];
 		}
