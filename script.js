@@ -3,7 +3,7 @@ function firstWord(s) {
 	let a ="";
 	for(let i=0;i<s.length;i++)
 		{
-			if(s[i]==" ")
+			if(s[i]===" ")
 			{
 				break;
 			}
