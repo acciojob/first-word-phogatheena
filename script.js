@@ -1,17 +1,18 @@
 function firstWord(s) {
   // your code here
-	let a ="";
-	for(let i=0;i<s.length;i++)
+	let a ="Hello ";
+	let b ;
+	for(let i=0;i<a.length;i++)
 		{
 			if(s.charAt(i)==" ")
 			{
-				return a;
+				return b;
 			}
-				a+=s.charAt(i);
+			b+=s.charAt(i);
 		}
-	return a;
+	return b;
 
 }
 // Do not change the code below
-const s = prompt("Enter String:");
+//const s = prompt("Enter String:");
 alert(firstWord(s));
