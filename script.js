@@ -1,16 +1,16 @@
 function firstWord(s) {
   // your code here
-	let a =[];
+	let a =" ";
 	for(let i=0;i<s.length;i++)
 		{
-			if(s[i]===" ")
+			if(s.charAt(i)===" ")
 			{
 				return a;
 			}
-				a+=s[i];
+				a+=s.charAt(i);
 		}
-	return a;
-	
+
+
 }
 // Do not change the code below
 
